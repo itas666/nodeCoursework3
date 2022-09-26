@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Coursework 3</title>
+        <meta charset="utf-8">
+	    <link href="css/general.css" rel="stylesheet">
+	    <script src="./js/clientCode/clientArticleFunctions.js"></script>
+	    <script src="./js/clientCode/clientCommentFunctions.js"></script>
+	    <script src="./js/clientCode/clientHelperFunctions.js"></script>
+	    <script src="./js/clientCode/clientUserFunctions.js"></script>
+	    <script src="./js/clientCode/clientLoginFunctions.js"></script>
+	    <script src="./js/clientCode/client.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="header">
+            <div class="headerLogo" style="margin-left: 50px;">
+                <img alt='logo' src="./img/mainLogoTransparent.png" height="150">
+            </div>
+            <div class="navButtons" id="navButtons">
+            </div>
+        </div>
+        <div class="navBar"></div>
+        <div class="wrapperLeft"></div>
+        <div class="mainBody">
+            <div class="homeWrapper" id="homeWrapper">  
+            </div>
+        </div>
+        <div class="wrapperRight"></div>
+        <div class="footer" id="footer">
+        </div>
+        <div class="centerPopup" id="centerPopup">
+            <span class="helper"></span>
+            <div>
+                <div class="popupCloseButton" onClick="centerPopupDiv.style.display = 'none';">&times;</div>
+                <div class="popupManageDiv" id="popupManageDiv">
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popup-overlay" id="popup-overlay" onClick="feedbackPopupClose()"></div>
+            <div class="main-popup" id="main-popup">
+                <span class="close-btn" id="close-btn" onClick="feedbackPopupClose();">&times;</span>
+              <div class="popup-content" id="popup-content">
+                  No
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </body>
+</html>
